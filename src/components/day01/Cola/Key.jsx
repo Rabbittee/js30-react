@@ -3,6 +3,8 @@ import clsx from 'clsx';
 import classes from './style.module.css';
 
 function Key({ text, desc, audio }) {
+  const media = new Audio(audio);
+
   const [playing, setPlaying] = useState(false);
 
   const onTransitionEnd = () => {
@@ -14,7 +16,6 @@ function Key({ text, desc, audio }) {
       if (e.key.toUpperCase() !== text) return;
 
       setPlaying(true);
-      const media = new Audio(audio);
       media.play();
     };
 
