@@ -37,6 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@svgr/plugin-svgo", "virtual:e8c7eb48115bc4e2cef1c126c6e80edb88536e3ddb32b57d5df2e77d03896f93f772033d5ffc3fb5a9e3097865f94bb7c816182d085b5e05af07ce293799fa31#npm:6.1.2"],
             ["@vitejs/plugin-react-refresh", "npm:1.3.6"],
+            ["clsx", "npm:1.1.1"],
             ["eslint", "npm:8.6.0"],
             ["eslint-config-prettier", "virtual:e8c7eb48115bc4e2cef1c126c6e80edb88536e3ddb32b57d5df2e77d03896f93f772033d5ffc3fb5a9e3097865f94bb7c816182d085b5e05af07ce293799fa31#npm:8.3.0"],
             ["eslint-plugin-prettier", "virtual:e8c7eb48115bc4e2cef1c126c6e80edb88536e3ddb32b57d5df2e77d03896f93f772033d5ffc3fb5a9e3097865f94bb7c816182d085b5e05af07ce293799fa31#npm:4.0.0"],
@@ -950,6 +951,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/clean-stack-npm-2.2.0-a8ce435a5c-2ac8cd2b2f.zip/node_modules/clean-stack/",
           "packageDependencies": [
             ["clean-stack", "npm:2.2.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["clsx", [
+        ["npm:1.1.1", {
+          "packageLocation": "./.yarn/cache/clsx-npm-1.1.1-362bec0598-ff05265032.zip/node_modules/clsx/",
+          "packageDependencies": [
+            ["clsx", "npm:1.1.1"]
           ],
           "linkType": "HARD",
         }]
@@ -2673,6 +2683,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["js30-react", "workspace:."],
             ["@svgr/plugin-svgo", "virtual:e8c7eb48115bc4e2cef1c126c6e80edb88536e3ddb32b57d5df2e77d03896f93f772033d5ffc3fb5a9e3097865f94bb7c816182d085b5e05af07ce293799fa31#npm:6.1.2"],
             ["@vitejs/plugin-react-refresh", "npm:1.3.6"],
+            ["clsx", "npm:1.1.1"],
             ["eslint", "npm:8.6.0"],
             ["eslint-config-prettier", "virtual:e8c7eb48115bc4e2cef1c126c6e80edb88536e3ddb32b57d5df2e77d03896f93f772033d5ffc3fb5a9e3097865f94bb7c816182d085b5e05af07ce293799fa31#npm:8.3.0"],
             ["eslint-plugin-prettier", "virtual:e8c7eb48115bc4e2cef1c126c6e80edb88536e3ddb32b57d5df2e77d03896f93f772033d5ffc3fb5a9e3097865f94bb7c816182d085b5e05af07ce293799fa31#npm:4.0.0"],

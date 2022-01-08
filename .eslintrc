@@ -26,6 +26,7 @@
   "rules": {
     "no-empty": "warn",
     "no-unused-vars": "warn",
-    "react/jsx-no-undef": "off"
+    "react/jsx-no-undef": "off",
+    "react/prop-types": "off"
   }
 }
