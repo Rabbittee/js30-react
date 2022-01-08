@@ -1,6 +1,6 @@
 .wrapper {
   font-size: 10px;
-  background: url('day01/background.jpg') bottom center;
+  background: url('/day01/background.jpg') bottom center;
   background-size: cover;
 }
 
