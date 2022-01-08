@@ -1,5 +1,4 @@
 import { Component } from 'react';
-import { Navigate } from 'react-router-dom';
 
 class ErrorBoundary extends Component {
   constructor(props) {
@@ -15,7 +14,7 @@ class ErrorBoundary extends Component {
   render() {
     if (this.state.hasError) {
       // You can render any custom fallback UI
-      return <Navigate to="/404" replace={true} />;
+      return <h1>Something went wrong.</h1>;
     }
 
     return this.props.children;
